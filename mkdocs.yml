@@ -1,0 +1,41 @@
+site_name: Awesome FtM
+site_url: https://tools.followthemoney.tech
+repo_url: https://github.com/alephdata/awesome-ftm
+nav:
+  - Overview: index.md
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: blue grey
+  font:
+    text: Inter
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    # - navigation.footer
+    - toc.follow
+    - content.code.copy
+extra_css:
+  - stylesheets/extra.css
+extra:
+  social:
+    - icon: material/web
+      link: https://followthemoney.tech
+    - icon: material/github
+      link: https://github.com/alephdata/awesome-ftm
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.details
+  - admonition
+  - pymdownx.tasklist:
+      custom_checkbox: true
+plugins:
+  - search

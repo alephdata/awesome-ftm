@@ -93,7 +93,7 @@ Building blocks for serving and searching FollowTheMoney datasets for web applic
 
 ## Projects / Use cases
 
-Data exploration projects that make use off the FollowTheMoney stack described above. Click on a project detail page to learn more on how these projects are using FollowTheMoney (you will find the actual links to the projects there as well).
+Data exploration projects that make use off the FollowTheMoney stack described above. 
 
 - [OCCRP Aleph](https://aleph.occrp.org) – The global archive of research material for investigative reporting
 - [OpenSanctions](https://opensanctions.org) – OpenSanctions helps investigators find leads, allows companies to manage risk and enables technologists to build data-driven products

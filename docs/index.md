@@ -1,6 +1,6 @@
 ---
 hide:
-  - navigation
+  – navigation
 ---
 
 # ✨ Awesome FollowTheMoney ✨
@@ -24,15 +24,15 @@ If you want your project on this list, just do a pull request to this repository
 
 These applications are probably the reason why you ended up here. Most of the smaller packages below are part of their full stack.
 
-- [Aleph](https://github.com/alephdata/aleph) - Original core project, now discontinued
+- [Aleph](https://github.com/alephdata/aleph) – Original core project, now discontinued
 - [OpenAleph](https://openaleph.org) – Search through large documents and structured data
-- [Aleph Pro](https://www.occrp.org/en/announcement/occrp-announces-a-new-chapter-for-its-investigative-data-platform-aleph-pro) - Closed-source, golang clone of Aleph
+- [Aleph Pro](https://www.occrp.org/en/announcement/occrp-announces-a-new-chapter-for-its-investigative-data-platform-aleph-pro) – Closed-source, golang clone of Aleph
 
 ## Build data and datasets
 
 Tools and frameworks for _creating_ FollowTheMoney data with scrapers or custom applications.
 
-- [followthemoney](https://github.com/alephdata/followthemoney) - core ontology and data validation system, includes CSV/SQL to FtM mapper.
+- [followthemoney](https://github.com/alephdata/followthemoney) – core ontology and data validation system, includes CSV/SQL to FtM mapper.
 - [memorious](https://github.com/alephdata/memorious) – light-weight web scraping toolkit for scrapers that collect structured or un-structured data
     * A more recent [fork of memorious](https://docs.investigraph.dev/lib/memorious/)
 - [zavod](https://zavod.opensanctions.org/) – Data processing framework as part of OpenSanctions
@@ -48,7 +48,7 @@ Tools and frameworks for _cleaning_ and _validating_ FollowTheMoney data.
 - [prefixdate](https://github.com/pudo/prefixdate) – a helper class to parse dates with varied degrees of precision
 - [datapatch](https://github.com/opensanctions/datapatch) – A Python library for defining rule-based overrides on messy data
 - [normality](https://github.com/pudo/normality/) – a Python micro-package that contains a small set of text normalization functions for easier re-use
-- [countrytagger](https://github.com/alephdata/countrytagger) - extract country name references from text
+- [countrytagger](https://github.com/alephdata/countrytagger) – extract country name references from text
 
 ## Analyze data
 
@@ -95,15 +95,18 @@ Building blocks for serving and searching FollowTheMoney datasets for web applic
 
 Data exploration projects that make use off the FollowTheMoney stack described above. Click on a project detail page to learn more on how these projects are using FollowTheMoney (you will find the actual links to the projects there as well).
 
+- [OCCRP Aleph](https://aleph.occrp.org) – The global archive of research material for investigative reporting
 - [OpenSanctions](https://opensanctions.org) – OpenSanctions helps investigators find leads, allows companies to manage risk and enables technologists to build data-driven products
 - [OpenSecurityData.eu](https://opensecuritydata.eu/) – Find companies, organizations or projects that receive European Union security funding
 - [Farmsubsidy.org](https://farmsubsidy.org) – Collecting and processing detailed data relating to payments and recipients of farm subsidies in every EU member state
 - [FollowTheGrant](https://followthegrant.org) – Data and investigations about potential conflicts of interest within academic research
 - [EveryPolitician](https://everypolitician.org) – Political exposed persons (PEPs), re-launching H2 2025.
 - [CORRECTIV Court Donations](https://spendengerichte.correctiv.org) – Who receives court donations in germany?
-- [YouControl.World](https://youcontrol.world/data-coverage) - KYB commercial platform based on Aleph
-- [DPRK Reports](https://dprk-reports.org/) - Graph-building data project working on North Korean sanctions evasion
-- [reveng.ee](https://reveng.ee/) - Activist portal from Ukraine, lots of searchable Russian data.
+- [YouControl.World](https://youcontrol.world/data-coverage) – KYB commercial platform based on Aleph
+- [DPRK Reports](https://dprk-reports.org/) – Graph-building data project working on North Korean sanctions evasion
+- [reveng.ee](https://reveng.ee/) – Activist portal from Ukraine, lots of searchable Russian data.
+- [DDoS Library of Leaks](https://search.libraryofleaks.org) – Public searchable leaks
+
 
 ## Data libraries / catalogs
 
@@ -115,11 +118,11 @@ Learn more: [Dataset / Catalog metadata](https://www.opensanctions.org/docs/meta
 - [DARC Library](https://dataresearchcenter.org/library)
 - [investigraph.eu](https://investigraph.eu)
 
-## Discontinued/legacy tools
+## Discontinued / legacy tools
 
 These libraries have been discontinued or merged with others:
 
-- [Aleph Data Desktop](https://github.com/alephdata/datadesktop) - desktop application for drawing investigative network diagrams.
+- [Aleph Data Desktop](https://github.com/alephdata/datadesktop) – desktop application for drawing investigative network diagrams.
 - [pantomime](https://github.com/alephdata/pantomime) – parsing and normalisation of internet MIME types in Python (discontinued, now in `rigour.mime`)
 - [fingerprints](https://github.com/opensanctions/fingerprints) – Name handling utilities for person and organisation names (discontinued, now in `rigour.names`)
 - [languagecodes](https://github.com/alephdata/languagecodes) – normalise the ISO 639 codes used to describe languages from two-letter codes to three letters, and vice versa (discontinued, now in `rigour.langs`)

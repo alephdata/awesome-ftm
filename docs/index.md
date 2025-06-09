@@ -1,3 +1,8 @@
+---
+hide:
+  - navigation
+---
+
 # ✨ Awesome FollowTheMoney ✨
 
 **Collection of tools and projects in the FollowTheMoney ecosystem**

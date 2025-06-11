@@ -63,10 +63,9 @@ Tools and frameworks for _analyzing_ FollowTheMoney data, for example transcribi
 - [ftm-analyze](https://docs.investigraph.dev/lib/ftm-analyze/) – The standalone ftm analyzer formerly included in `ingest-file` for all kinds of processing
 - [ftm-geocode](https://docs.investigraph.dev/lib/ftm-geocode/) – Batch parse and geocode addresses from FollowTheMoney entities
 - [ftm-transcribe](https://github.com/openaleph/ftm-transcribe) – Extract text from Video and Audio
-- [followthemoney-compare](https://github.com/alephdata/followthemoney-compare) – tools necessary to pre-process and train models to power a cross-reference system for FollowTheMoney data
+- [followthemoney-compare](https://github.com/alephdata/followthemoney-compare) – pre-process and train models to power a cross-reference system for FollowTheMoney data, includes a model based on regression and word frequency analysis in names.
 - [juditha](https://github.com/dataresearchcenter/juditha) – Compare and resolve NER results to actual known FtM Entities
 - [ingest-file.analysis](https://github.com/alephdata/ingest-file) – Part of the document ingestion is a comprehensive _analysis_ phase used for Aleph applications
-- [followthemoney-compare](https://github.com/alephdata/followthemoney-compare) - entity similarity computation, based on regression and word frequency analysis in names.
 
 ## Store entity data
 
@@ -75,8 +74,8 @@ Tools and applications for _storing and retrieving_ FollowTheMoney data such as 
 - [followthemoney-store](https://github.com/alephdata/followthemoney-store) – Sql-backed store for [Entity fragments](https://followthemoney.tech/docs/fragments/)
 - [nomenklatura](https://github.com/opensanctions/nomenklatura) – Store entity data as _statements_.
       * Implementations for different graph-traversable backends (memory, redis, kvrocks, sql).
-      * Various entity matching algorithms, and an in-memory cross-referencing index for data deduplication.
-      * A Wikidata client library with mappings from their ontology onto FtM statementys (wants to become `followthemoney-wikidata` at some point)
+      * Various entity matching algorithms (rule- and regression-based), and an in-memory cross-referencing index for data deduplication.
+      * A Wikidata client with mappings from their data model onto FtM statements (wants to become `followthemoney-wikidata` at some point)
       * Data enrichment clients for building out investigative graphs pulling in remote info from Aleph, yente, Wikidata, OpenCorporates, PermID, OpenFIGI.
 - [ftmq](https://docs.investigraph.dev/lib/ftmq/) – More advanced querying logic on top off the `nomenklatura` store implementations
 - [bahamut](https://github.com/opensanctions/bahamut) – WIP FollowTheMoney statement data server with built-in entity resolution support. Written in Java.

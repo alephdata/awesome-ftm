@@ -49,6 +49,7 @@ Tools and frameworks for _cleaning_ and _validating_ FollowTheMoney data.
 - [datapatch](https://github.com/opensanctions/datapatch) – A Python library for defining rule-based overrides on messy data
 - [normality](https://github.com/pudo/normality/) – a Python micro-package that contains a small set of text normalization functions for easier re-use
 - [countrytagger](https://github.com/alephdata/countrytagger) – extract country name references from text
+- [followthemoney-typepredict](https://github.com/alephdata/followthemoney-typepredict) - guess the FtM type class of a piece of text, including distinguishing company and person names.
 
 ## Analyze data
 
@@ -60,15 +61,16 @@ Tools and frameworks for _analyzing_ FollowTheMoney data, for example transcribi
 - [followthemoney-compare](https://github.com/alephdata/followthemoney-compare) – tools necessary to pre-process and train models to power a cross-reference system for FollowTheMoney data
 - [juditha](https://github.com/dataresearchcenter/juditha) – Compare and resolve NER results to actual known FtM Entities
 - [ingest-file.analysis](https://github.com/alephdata/ingest-file) – Part of the document ingestion is a comprehensive _analysis_ phase used for Aleph applications
+- [followthemoney-compare](https://github.com/alephdata/followthemoney-compare) - entity similarity computation, based on regression and word frequency analysis in names.
 
 ## Store entity data
 
 Tools and applications for _storing and retrieving_ FollowTheMoney data such as databases, key-value stores or document archives. Contains as well tools for storing related data (such as images for Entities).
 
 - [followthemoney-store](https://github.com/alephdata/followthemoney-store) – Sql-backed store for [Entity fragments](https://followthemoney.tech/docs/fragments/)
-- [nomenklatura](https://github.com/opensanctions/nomenklatura) – Store entity data as _statements_. This package includes implementations for different backends (memory, redis, kvrocks, sql)
+- [nomenklatura](https://github.com/opensanctions/nomenklatura) – Store entity data as _statements_. This package includes implementations for different backends (memory, redis, kvrocks, sql). Also includes various entity matching algorithms, and an in-memory cross-referencing index for data deduplication. Currently includes a WD client library that wants to become `followthemoney-wikidata` at some point.
 - [ftmq](https://docs.investigraph.dev/lib/ftmq/) – More advanced querying logic on top off the `nomenklatura` store implementations
-- [bahamut](https://github.com/opensanctions/bahamut) – Next generation FollowTheMoney statement data server with built-in entity resolution support. Written in Java.
+- [bahamut](https://github.com/opensanctions/bahamut) – WIP FollowTheMoney statement data server with built-in entity resolution support. Written in Java.
 - [FollowTheMoney Data Lake](https://openaleph.org/docs/lib/ftm-datalake/rfc/) – Scalable storage for structured data and document archives (upcoming)
 - [ftm-columnstore](https://github.com/dataresearchcenter/ftm-columnstore) – [Clickhouse](https://clickhouse.com/)-backed implementation of a `nomenklatura` statement store
 - [servicelayer](https://github.com/alephdata/servicelayer/) – Document archive for _legacy Aleph_ and [OpenAleph](https://openaleph.org)
@@ -114,9 +116,10 @@ Many FollowTheMoney _Entities_ form a _Dataset_, many datasets form a _Catalog_ 
 
 Learn more: [Dataset / Catalog metadata](https://www.opensanctions.org/docs/metadata/)
 
-- [OpenSanctions Datasets](https://opensanctions.org/datasets)
+- [OpenSanctions Datasets](https://opensanctions.org/datasets/sources/)
 - [DARC Library](https://dataresearchcenter.org/library)
 - [investigraph.eu](https://investigraph.eu)
+- [OpenSanctions Reference Datasets](https://opensanctions.org/kyb/)
 
 ## Discontinued / legacy tools
 
@@ -127,3 +130,4 @@ These libraries have been discontinued or merged with others:
 - [fingerprints](https://github.com/opensanctions/fingerprints) – Name handling utilities for person and organisation names (discontinued, now in `rigour.names`)
 - [languagecodes](https://github.com/alephdata/languagecodes) – normalise the ISO 639 codes used to describe languages from two-letter codes to three letters, and vice versa (discontinued, now in `rigour.langs`)
 - [addressformatting](https://github.com/pudo-attic/addressformatting) – address formatter that can format addresses in multiple formats that are common in different countries (discontinued, now in `rigour.addresses`)
+- [followthemoney-predict](https://github.com/alephdata/followthemoney-predict) - previous entity comparison/linkage codebase.

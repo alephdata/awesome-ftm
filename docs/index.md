@@ -40,7 +40,7 @@ Tools and frameworks for _creating_ FollowTheMoney data with scrapers or custom 
 - [ingest-file](https://github.com/alephdata/ingest-file) – Create document graphs out of source data for Aleph applications
 
 Specialised data importers:
-- [followthemoney-ocds](https://github.com/alephdata/followthemoney-ocds) - Convert open contracting data standard files to FtM 
+- [followthemoney-ocds](https://github.com/alephdata/followthemoney-ocds) - Convert open contracting data standard files to FtM
 - [followthemoney-cellebrite](https://github.com/alephdata/followthemoney-cellebrite) - Import data forensics dumps from Cellebrite
 - Importers for BODS (Beneficial Ownership Data) and GLEIF RR files are in OpenSanctions.
 
@@ -74,10 +74,10 @@ Tools and applications for _storing and retrieving_ FollowTheMoney data such as 
 
 - [followthemoney-store](https://github.com/alephdata/followthemoney-store) – Sql-backed store for [Entity fragments](https://followthemoney.tech/docs/fragments/)
 - [nomenklatura](https://github.com/opensanctions/nomenklatura) – Store entity data as _statements_.
-  * Implementations for different graph-traversable backends (memory, redis, kvrocks, sql). 
-  * Various entity matching algorithms, and an in-memory cross-referencing index for data deduplication. 
-  * A Wikidata client library with mappings from their ontology onto FtM statementys (wants to become `followthemoney-wikidata` at some point)
-  * Data enrichment clients for building out investigative graphs pulling in remote info from Aleph, yente, Wikidata, OpenCorporates, PermID, OpenFIGI. 
+      * Implementations for different graph-traversable backends (memory, redis, kvrocks, sql).
+      * Various entity matching algorithms, and an in-memory cross-referencing index for data deduplication.
+      * A Wikidata client library with mappings from their ontology onto FtM statementys (wants to become `followthemoney-wikidata` at some point)
+      * Data enrichment clients for building out investigative graphs pulling in remote info from Aleph, yente, Wikidata, OpenCorporates, PermID, OpenFIGI.
 - [ftmq](https://docs.investigraph.dev/lib/ftmq/) – More advanced querying logic on top off the `nomenklatura` store implementations
 - [bahamut](https://github.com/opensanctions/bahamut) – WIP FollowTheMoney statement data server with built-in entity resolution support. Written in Java.
 - [FollowTheMoney Data Lake](https://openaleph.org/docs/lib/ftm-datalake/rfc/) – Scalable storage for structured data and document archives (upcoming)
@@ -104,7 +104,7 @@ Building blocks for serving and searching FollowTheMoney datasets for web applic
 
 ## Projects / Use cases
 
-Data exploration projects that make use off the FollowTheMoney stack described above. 
+Data exploration projects that make use off the FollowTheMoney stack described above.
 
 - [OCCRP Aleph](https://aleph.occrp.org) – The global archive of research material for investigative reporting
 - [OpenSanctions](https://opensanctions.org) – OpenSanctions helps investigators find leads, allows companies to manage risk and enables technologists to build data-driven products

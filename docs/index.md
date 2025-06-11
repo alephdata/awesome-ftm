@@ -73,7 +73,11 @@ Tools and frameworks for _analyzing_ FollowTheMoney data, for example transcribi
 Tools and applications for _storing and retrieving_ FollowTheMoney data such as databases, key-value stores or document archives. Contains as well tools for storing related data (such as images for Entities).
 
 - [followthemoney-store](https://github.com/alephdata/followthemoney-store) – Sql-backed store for [Entity fragments](https://followthemoney.tech/docs/fragments/)
-- [nomenklatura](https://github.com/opensanctions/nomenklatura) – Store entity data as _statements_. This package includes implementations for different backends (memory, redis, kvrocks, sql). Also includes various entity matching algorithms, and an in-memory cross-referencing index for data deduplication. Currently includes a WD client library that wants to become `followthemoney-wikidata` at some point.
+- [nomenklatura](https://github.com/opensanctions/nomenklatura) – Store entity data as _statements_.
+  * Implementations for different graph-traversable backends (memory, redis, kvrocks, sql). 
+  * Various entity matching algorithms, and an in-memory cross-referencing index for data deduplication. 
+  * A Wikidata client library with mappings from their ontology onto FtM statementys (wants to become `followthemoney-wikidata` at some point)
+  * Data enrichment clients for building out investigative graphs pulling in remote info from Aleph, yente, Wikidata, OpenCorporates, PermID, OpenFIGI. 
 - [ftmq](https://docs.investigraph.dev/lib/ftmq/) – More advanced querying logic on top off the `nomenklatura` store implementations
 - [bahamut](https://github.com/opensanctions/bahamut) – WIP FollowTheMoney statement data server with built-in entity resolution support. Written in Java.
 - [FollowTheMoney Data Lake](https://openaleph.org/docs/lib/ftm-datalake/rfc/) – Scalable storage for structured data and document archives (upcoming)

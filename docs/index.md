@@ -24,9 +24,9 @@ If you want your project on this list, just do a pull request to this repository
 
 These applications are probably the reason why you ended up here. Most of the smaller packages below are part of their full stack.
 
-- [Aleph](https://github.com/alephdata/aleph) – Original core project, now discontinued
+- [Aleph](https://github.com/alephdata/aleph) – Original open-source core project, will no longer be maintained after October 2025
 - [OpenAleph](https://openaleph.org) – Search through large documents and structured data
-- [Aleph Pro](https://www.occrp.org/en/announcement/occrp-announces-a-new-chapter-for-its-investigative-data-platform-aleph-pro) – Closed-source, golang clone of Aleph
+- [Aleph Pro](https://www.occrp.org/en/announcement/occrp-announces-a-new-chapter-for-its-investigative-data-platform-aleph-pro) – Closed-source SaaS version of original Aleph project, launching October 2025
 
 ## Build data and datasets
 

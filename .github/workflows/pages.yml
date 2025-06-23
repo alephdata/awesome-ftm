@@ -30,7 +30,7 @@ jobs:
           cache: 'pip'
       - name: Install requirements
         run: |
-          pip install --no-cache-dir -q -r requirements.txt"
+          pip install --no-cache-dir -q -r requirements.txt
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5

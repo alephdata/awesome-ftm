@@ -20,18 +20,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Install system dependencies
-        env:
-          DEBIAN_FRONTEND: noninteractive
-        run: |
-          sudo apt-get install -y -qq libicu-dev
+    #   - name: Install system dependencies
+    #     env:
+    #       DEBIAN_FRONTEND: noninteractive
+    #     run: |
+    #       sudo apt-get install -y -qq libicu-dev
       - uses: actions/setup-python@v5
         with:
           cache: 'pip'
       - name: Install requirements
         run: |
-          pip install --no-cache-dir -q -e ".[dev]"
-          pip install --no-cache-dir -q -e ".[docs]"
+          pip install --no-cache-dir -q -r requirements.txt"
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
